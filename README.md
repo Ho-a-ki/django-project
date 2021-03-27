@@ -88,7 +88,19 @@ python manage.py runserver 0:8000 (로컬 서버에 오픈하고 싶다면)
 ### tutorial 설문조사 앱 만들어보기.
 
 필요한 것을 만들기 전에 tutorial은 한번 해보자.
+[tutorial.md](./tutorial.md) 참고
 
 
 ### 무엇을 만들것인가?
 [commute_check.md](./commute_check.md) 참고
+
+
+### 참고해보기
+django with jquery.
+php, jquery 배우기 정말 싫은데
+jquery > js로 그냥 하는 이슈에 대해서
+
+https://wayhome25.github.io/django/2017/06/25/django-ajax-like-button/
+
+https://heiswed.tistory.com/entry/%EC%9E%A5%EA%B3%A0Django-%EA%B0%9C%EB%B0%9C-JQuery%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-Ajax%EC%99%80-Autocomplete-%EC%98%88%EC%A0%9C
+
