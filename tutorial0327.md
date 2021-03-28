@@ -74,6 +74,7 @@ Question과 Choice 객체에 접근하기 위한 Python 데이터베이스 접�
 
 * 셋팅에 설치된 앱에 polls를 추가한 후에
 * 장고에게 이 앱이 추가됐다는 것을 알려줌
+
 ```
 python manage.py makemigrations polls
 python manage.py sqlmigrate polls 0001

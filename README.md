@@ -1,4 +1,42 @@
 
+
+# 새로운 곳에서 처음 시작할 때의 세팅
+
+1. 콘다 설치
+2. 깃 설치
+3. VS code 설치
+
+
+## GIT
+1. git clone
+2. git config
+
+## VS CODE
+1. python extension 설치.
+2. markdown preview (Yiyi Wang)
+
+## CONDA
+1. conda create -n gh-django python=3.8
+2. conda activate gh-django
+3. pip install -r requirements.txt
+4. pip freezee > requirements.txt
+
+## django
+1. 처음 시작할 떄 DB가 생성되어있지 않아서 마이그레이션을 해줘야함
+```
+python manage.py sqlmigrate polls 0001
+python manage.py migrate
+```
+
+2. 역시 새로 설치할 경우 DB가 다 날아가기 때문에, 새로 만들어줘야함
+3. superuser도 마찬가지
+```
+python manage.py createsuperuser
+```
+
+
+
+
 # django github
 
 ## 시작하기
@@ -61,7 +99,7 @@ pip install django
 
 ## django 시작하기
 https://docs.djangoproject.com/ko/3.1/intro/
-> 어느새 3.~ 버전이 나왔구나..
+어느새 3.~ 버전이 나왔구나..
 
 * 장고 버전 확인
 ```
