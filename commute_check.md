@@ -14,3 +14,39 @@ django로 시작.
     6. 아니면 한번 로그인하면, 세션이 종료될때까지는 다른 로그인이 안되도록 하기.
 
 * 아이디어가 필요하다.. 일단 만들어보자
+
+
+# 시작
+
+### 모델 생성
+
+```
+Work(출석)
+-------
+person(출근자)
+created_time(생성일)
+on(출근)
+off(퇴근)
+work_time(일한시간)
+```
+
+```
+python manage.py makemigrations work
+python manage.py migrate work
+```
+* 어드민에서 테스트 케이스 생성 (Shell에서도 가능)
+
+url 세팅.
+view 세팅.
+templates 세팅.
+
+
+### 동작 방식.
+
+특정 URL로 접근시, (QR코드 생성 할 URL) 접근한 사용자와 시간을 바탕으로
+Discord에 쏴주고, 이에 해당하는 사람에 대한 데이터를 남김.
+
+https://velog.io/@jisoo1170/django-%EB%B9%84%EB%B0%80-%EA%B0%92-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0
+
+
+

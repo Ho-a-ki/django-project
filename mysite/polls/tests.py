@@ -1,12 +1,9 @@
 # Create your tests here.
 # 오 테스트 케이스 작성하는 곳도 있구나 (앱의 경우에만?)
-
-
 from django.test import TestCase
 from django.utils import timezone
 import datetime
 from .models import Question
-
 from django.urls import reverse
 
 class QuestionModelTests(TestCase):
